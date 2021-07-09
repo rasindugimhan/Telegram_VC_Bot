@@ -7,10 +7,10 @@ if HEROKU:
     from dotenv import load_dotenv
 
     load_dotenv()  # take environment variables from .env.
-    API_ID = int(environ["API_ID"])
-    API_HASH = environ["API_HASH"]
+    API_ID = int(environ["5948661"])
+    API_HASH = environ["ed081430c75f3e9a95b3b5d461fa73"]
     SESSION_STRING = environ["SESSION_STRING"]  # Check Readme for session
-    ARQ_API_KEY = environ["ARQ_API_KEY"]
+    ARQ_API_KEY = environ["KEONLX-JNUZAE-DPBEDF-MLSDGP-ARQ"]
     DEFAULT_SERVICE = (
         environ["DEFAULT_SERVICE"]
         if "DEFAULT_SERVICE" in environ
